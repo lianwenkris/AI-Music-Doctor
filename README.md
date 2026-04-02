@@ -52,7 +52,7 @@ pip install -r requirements.txt
 This installs all necessary Python packages, including numpy, scipy, sounddevice, PyQt5, and others.
 Run the Application Launch the app by running:
 
-python src/main.py
+run_app.bat
 
 This opens the GUI where you can load your AI-generated audio files, apply processing, and listen in real-time.
 Build Windows Installer (Optional) To create a standalone Windows executable installer:
