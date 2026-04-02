@@ -1,5 +1,7 @@
 **AI Music Doctor v1.0**
 
+<img width="1313" height="962" alt="GUI AIMD" src="https://github.com/user-attachments/assets/ec5befe3-f177-4053-b2fe-2c91e962f2cd" />
+
 **Overview**
 
 AI Music Doctor is a professional-grade standalone desktop audio processing application designed to clean up and enhance AI-generated music tracks. It uses advanced psychoacoustic algorithms inspired by Fletcher-Munson curves and the Bark Scale to dynamically reduce problematic frequencies such as boomy, boxy, muddy, honky, harsh, and sizzle sounds, making your audio smoother and more pleasant to listen to.
