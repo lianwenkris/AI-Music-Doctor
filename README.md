@@ -21,14 +21,23 @@ AI Music Doctor is a professional-grade standalone desktop audio processing appl
 **Key Features**
 
 Psychoacoustic Denoiser: A one-knob solution with six frequency bands (Boom, Box, Mudd, Honk, Harsh, Sizzle) that dynamically minimizes problematic frequencies with zero latency.
+
 Mastering Knobs: Nine gentle, professional mastering controls with ±3dB max adjustments for Air, Body, Focus, Push (saturation/compression), Width (M/S stereo), Volume, Transients, Analog warmth, and Bass Punch.
+
 Graphical EQ: A precise 9-band EQ with ±2.4dB max gain/cut, designed for surgical, artifact-free adjustments.
+
 Real-Time Audio Monitoring: Hear all changes instantly as you adjust knobs or switch presets.
+
 A/B Comparison: Toggle between original and processed audio during playback.
+
 Oversampling: Options for 2x, 4x, and 8x oversampling to reduce aliasing and improve audio quality.
+
 Undo/Redo: Robust state management with up to 50 levels of undo/redo.
+
 Spectrum Analyzer: LED-style 24-band spectrum visualization with smooth, natural movement.
+
 Stable and Efficient: Lock-free audio processing callback, optimized vectorized DSP algorithms, and a 2048-sample buffer for smooth playback without lag or freezing.
+
 19 Expert-Designed Presets: Tailored for AI music services (Suno, Udio, Tunee), genres, and common audio problems.
 
 
