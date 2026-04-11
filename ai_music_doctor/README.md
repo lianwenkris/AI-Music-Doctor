@@ -1,5 +1,4 @@
-# AI Music Doctor v4.0.0
-
+# AI Music Doctor 
 **Professional Mastering Suite for AI-Generated Music**
 
 A hardware-style audio processing application with mastering-grade controls, psychoacoustic denoising, and artifact-free EQ.
