@@ -3,7 +3,7 @@
 
 A hardware-style audio processing application with mastering-grade controls, psychoacoustic denoising, and artifact-free EQ.
 
-## What's New in v4.0
+## What's New in v1.2
 
 ### 🎛️ Professional Mastering Knobs (±3dB max)
 - **Air** - High frequency sparkle (8-16kHz shelf)
