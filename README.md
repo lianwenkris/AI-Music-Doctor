@@ -65,40 +65,5 @@ Stable and Efficient: Lock-free audio processing callback, optimized vectorized 
 
 
 
-**Installation Instructions**
-
-Prerequisites
-
-Python 3.12 or later (Note: The app was tested and updated for Python 3.12+ compatibility)
-pip package manager
-
-Steps
-
-Download the Project Clone or download the AI Music Doctor project from GitHub.
-Install Dependencies Open a terminal or command prompt in the project directory and run:
-
-pip install -r requirements.txt
-
-This installs all necessary Python packages, including numpy, scipy, sounddevice, PyQt5, and others.
-Run the Application Launch the app by running:
-
-run_app.bat
-
-This opens the GUI where you can load your AI-generated audio files, apply processing, and listen in real-time.
-Build Windows Installer (Optional) To create a standalone Windows executable installer:
-Run the build script:
-
-python installer/build_installer.py
-
-Use Inno Setup (on Windows) to compile the installer script located at:
-installer/ai_music_doctor_installer.iss
-
-After everything is correctly installed you can execute the app by running the .bat file. 
-This will generate a professional Windows installer with shortcuts and bundled dependencies.
-
-**Notes**
-The app currently requires running via Python. For users unfamiliar with Python, this may be a barrier.
-If you know how to create a proper standalone .exe installer that bundles Python and all dependencies seamlessly, please share your expertise! This would make the app more accessible to users who are not comfortable with Python environments. Contact me!
-
 2026
 _Denoise The Future™_
