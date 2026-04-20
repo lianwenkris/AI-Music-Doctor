@@ -1,0 +1,48 @@
+Welcome to AI Music Doctor v2.0!
+
+AI Music Doctor helps you clean up and enhance AI-generated music from Suno, Udio, Tunee, and other AI music services.
+
+=== NEW IN VERSION 2.0 ===
+
+★ TRUE REAL-TIME AUDIO MONITORING
+  Hear changes INSTANTLY as you adjust knobs - no need to process first!
+
+★ AUTOMATIC AUDIO ANALYSIS  
+  AI-powered detection of noise, artifacts, frequency issues
+  Automatic service detection (Suno, Udio, Tunee)
+  Smart suggestions for optimal settings
+
+★ A/B COMPARISON
+  Toggle between Original (Dry) and Processed (Wet) in real-time
+  Compare before/after while adjusting parameters
+
+★ 17 REFINED PRESETS
+  Service-specific: Suno, Udio, Tunee
+  Problem-specific: De-Harsh, De-Ess, De-Muddy, De-Metallic
+  Intensity levels: Light Touch to Maximum Restoration
+
+★ SEEK & LOOP CONTROLS
+  Navigate anywhere in the audio with seek slider
+  Enable loop for precise fine-tuning
+
+★ LIVE SPECTRUM ANALYZER
+  Watch frequency response update in real-time during playback
+
+=== KEY FEATURES ===
+
+• FFT-based spectral denoising
+• Time-domain and hybrid processing modes
+• Hiss & noise removal
+• AI artifact cleanup
+• Frequency suppression
+• Professional dithering (TPDF, POWr)
+• Mono/stereo support
+
+=== SYSTEM REQUIREMENTS ===
+
+• Windows 10/11 (64-bit)
+• 4GB RAM minimum
+• Audio output device
+• 100MB disk space
+
+Click Next to continue with installation.
