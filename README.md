@@ -18,13 +18,8 @@
 
 AI Music Doctor is a professional-grade standalone desktop audio processing application designed to clean up and enhance AI-generated music tracks. It uses advanced psychoacoustic algorithms inspired by Fletcher-Munson curves and the Bark Scale to dynamically reduce problematic frequencies such as boomy, boxy, muddy, honky, harsh, and sizzle sounds, making your audio smoother and more pleasant to listen to.
 
-Examples:
+Example:
 
-**Udio Original RAW**
-[Udio Original RAW.mp3](https://github.com/user-attachments/files/26454461/Udio.Original.RAW.mp3)
-
-**Processed**
-[Processed.mp3](https://github.com/user-attachments/files/26454465/Processed.mp3)
 
 -------------------------------------------------------------------------------------------------
 
