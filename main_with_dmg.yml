@@ -1,0 +1,68 @@
+name: Build macOS DMG
+
+"on":
+  push:
+    branches:
+      - main
+  pull_request:
+
+env:
+  APP_NAME: AI_Music_Doctor
+  APP_VERSION: v1.3
+  APP_ENTRY: main.py
+  PROJECT_DIR: "AI_MUSIC_DOCTOR V1.3/ai_music_doctor"
+  DMG_NAME: AI_Music_Doctor-v1.3.dmg
+
+jobs:
+  build-macos-dmg:
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build macOS .app with PyInstaller
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: |
+          pyinstaller --noconfirm --windowed --name "${APP_NAME}" "${APP_ENTRY}"
+          ls -la dist
+
+      - name: Install DMG tooling
+        run: |
+          brew update
+          brew install create-dmg
+
+      - name: Create DMG from .app bundle
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: |
+          mkdir -p release
+          create-dmg \
+            --volname "${APP_NAME} Installer" \
+            --window-pos 200 120 \
+            --window-size 800 400 \
+            --icon-size 100 \
+            --icon "${APP_NAME}.app" 200 190 \
+            --hide-extension "${APP_NAME}.app" \
+            --app-drop-link 600 185 \
+            "release/${DMG_NAME}" \
+            "dist/"
+          ls -la release
+
+      - name: Upload DMG artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-dmg
+          path: ${{ env.PROJECT_DIR }}/release/${{ env.DMG_NAME }}
+          if-no-files-found: error
