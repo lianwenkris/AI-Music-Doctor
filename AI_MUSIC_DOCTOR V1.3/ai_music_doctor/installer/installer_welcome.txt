@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/installer/installer_welcome.txt>
 Welcome to AI Music Doctor v2.0!
 
 AI Music Doctor helps you clean up and enhance AI-generated music from Suno, Udio, Tunee, and other AI music services.
@@ -46,3 +48,7 @@ AI Music Doctor helps you clean up and enhance AI-generated music from Suno, Udi
 • 100MB disk space
 
 Click Next to continue with installation.
+
+</file>
+
+</uploaded_files>

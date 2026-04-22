@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/generate_manual.py>
 #!/usr/bin/env python3
 """
 AI Music Doctor - PDF Manual Generator
@@ -319,3 +321,7 @@ def generate_manual(output_path=None):
 if __name__ == '__main__':
     output_path = sys.argv[1] if len(sys.argv) > 1 else None
     generate_manual(output_path)
+
+</file>
+
+</uploaded_files>

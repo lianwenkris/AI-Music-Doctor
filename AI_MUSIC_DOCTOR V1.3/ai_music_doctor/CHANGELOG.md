@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/CHANGELOG.md>
 # Changelog
 
 All notable changes to AI Music Doctor are documented in this file.
@@ -165,3 +167,7 @@ All 19 presets recalibrated for new knob system:
 - Noise reduction
 - Artifact cleanup
 - Simple GUI
+
+</file>
+
+</uploaded_files>

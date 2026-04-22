@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/realtime_engine.py>
 """
 AI Music Doctor - Real-Time Audio Engine
 Version: 4.2.0 - AUDIO PLAYBACK FIX
@@ -1026,3 +1028,7 @@ class RealTimeAudioEngine:
 
 # Backwards compatibility
 GentleRealTimeProcessor = RealTimeProcessor
+
+</file>
+
+</uploaded_files>

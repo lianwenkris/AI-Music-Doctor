@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/LICENSE.txt>
 AI MUSIC DOCTOR SOFTWARE LICENSE AGREEMENT
 
 Copyright © 2026 Denoise The Future Inc.
@@ -85,3 +87,7 @@ If you have any questions concerning this EULA, please contact:
 Denoise The Future Inc.
 Email: support@denoisethefuture.com
 Website: www.denoisethefuture.com
+
+</file>
+
+</uploaded_files>

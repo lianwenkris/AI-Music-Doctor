@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/audio_analyzer.py>
 """
 AI Music Doctor - Automatic Audio Analyzer
 Analyzes audio for common AI-generated music issues
@@ -535,3 +537,7 @@ class AudioAnalyzer:
         lines.append(f"Suggested Preset: {result.suggested_preset}")
         
         return "\n".join(lines)
+
+</file>
+
+</uploaded_files>

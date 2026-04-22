@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/QUICK_START.md>
 # AI Music Doctor - Quick Start Guide
 
 ## For End Users
@@ -164,3 +166,7 @@ python test_audio_processor.py
 **Made with ❤️ by Denoise The Future Inc.**
 
 *Get started in 5 minutes!*
+
+</file>
+
+</uploaded_files>

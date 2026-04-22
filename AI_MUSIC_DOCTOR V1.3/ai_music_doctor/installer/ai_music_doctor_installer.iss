@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/installer/ai_music_doctor_installer.iss>
 ; AI Music Doctor - Inno Setup Script
 ; Version 2.0.0
 
@@ -90,3 +92,7 @@ begin
            mbInformation, MB_OK);
   end;
 end;
+
+</file>
+
+</uploaded_files>

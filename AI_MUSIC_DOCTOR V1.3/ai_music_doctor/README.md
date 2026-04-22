@@ -1,3 +1,5 @@
+<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
+<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/README.md>
 # AI Music Doctor v4.0.0
 
 **Professional Mastering Suite for AI-Generated Music**
@@ -104,3 +106,7 @@ python installer/build_installer.py
 ---
 
 **Denoise The Future Inc.** | AI Music Doctor v4.0.0 | Professional Mastering for AI-Generated Music
+
+</file>
+
+</uploaded_files>
