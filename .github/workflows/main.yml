@@ -1,1 +1,1 @@
-```yaml name: Build macOS App on: [push] jobs: build: runs-on: macos-latest steps: - uses: actions/checkout@v3 - name: Set up Python uses: actions/setup-python@v4 with: {python-version: '3.9'} - run: pip install pyinstaller - run: pyinstaller --onefile --windowed main.py ``` 
+```yaml name: Build macOS App on: [push] jobs: build: runs-on: macos-latest steps: - uses: actions/checkout@v3 ```
