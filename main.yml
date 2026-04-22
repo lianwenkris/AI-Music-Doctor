@@ -1,4 +1,4 @@
-name: Python CI
+name: Build macOS DMG
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  install-dependencies:
+  build-dmg:
     runs-on: macos-latest
 
     steps:
@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install pip, requirements, and pyinstaller
+      - name: Install dependencies
         working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor
         run: |
           python -m pip install --upgrade pip
@@ -34,9 +34,25 @@ jobs:
                       --clean \
                       --onedir \
                       main.py
-      
-      - name: Upload app artifact
+
+      - name: Install create-dmg
+        run: brew install create-dmg
+
+      - name: Create DMG
+        working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor
+        run: |
+          mkdir -p release
+          create-dmg \
+            --volname "AI Music Doctor" \
+            --window-pos 200 120 \
+            --window-size 800 400 \
+            --icon-size 100 \
+            --app-drop-link 600 185 \
+            "release/AI-Music-Doctor-v1.3.dmg" \
+            "dist/AI Music Doctor.app"
+
+      - name: Upload DMG artifact
         uses: actions/upload-artifact@v4
         with:
-          name: AI-Music-Doctor-macOS
-          path: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/dist/AI Music Doctor.app
+          name: AI-Music-Doctor-macOS-DMG
+          path: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/installer
