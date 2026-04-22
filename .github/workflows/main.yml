@@ -1,4 +1,4 @@
-- name: Install dependencies
+  name: Install dependencies
   working-directory: "AI_MUSIC_DOCTOR V1.3/ai_music_doctor"
   run: |
     python -m pip install --upgrade pip
