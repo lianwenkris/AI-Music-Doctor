@@ -1,5 +1,4 @@
-<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
-<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/gui.py>
+
 """
 AI Music Doctor - Professional Hardware-Style GUI
 Version: 4.1.0
@@ -1887,6 +1886,3 @@ def run_app():
 if __name__ == '__main__':
     run_app()
 
-</file>
-
-</uploaded_files>
