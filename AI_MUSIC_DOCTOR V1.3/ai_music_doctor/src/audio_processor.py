@@ -1,5 +1,4 @@
-<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
-<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/audio_processor.py>
+
 """
 AI Music Doctor - Advanced Audio Processing Engine
 Version: 4.1.0
@@ -1934,6 +1933,3 @@ class StreamingExporter:
 class GentleAudioProcessor(AudioProcessor):
     pass
 
-</file>
-
-</uploaded_files>
