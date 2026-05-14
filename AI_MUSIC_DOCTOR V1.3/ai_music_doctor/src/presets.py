@@ -1,5 +1,4 @@
-<uploaded_files github_repo=mixdoktorz-bit/AI-Music-Doctor>
-<file=AI_MUSIC_DOCTOR V1.3/ai_music_doctor/src/presets.py>
+
 """
 AI Music Doctor - Professional Mastering Presets
 Version: 4.1.0
@@ -540,6 +539,3 @@ ISSUE_PRESET_MAPPING = {
     "vocal_unclear": "Vocal Clarity",
 }
 
-</file>
-
-</uploaded_files>
