@@ -19,15 +19,17 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor
+        # Path updated to point where your requirements.txt lives
+        working-directory: "AI_MUSIC_DOCTOR V1.3/ai_music_doctor"
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pyinstaller
 
       - name: Build app with PyInstaller
-        working-directory: AI_MUSIC_DOCTOR V1.3
+        working-directory: "AI_MUSIC_DOCTOR V1.3/ai_music_doctor"
         run: |
+          # main.py is inside the src folder relative to this directory
           pyinstaller --name="AI Music Doctor" \
                       --windowed \
                       --noconfirm \
@@ -39,9 +41,10 @@ jobs:
         run: brew install create-dmg
 
       - name: Create DMG
-        working-directory: AI_MUSIC_DOCTOR V1.3/ai_music_doctor
+        working-directory: "AI_MUSIC_DOCTOR V1.3/ai_music_doctor"
         run: |
           mkdir -p release
+          # PyInstaller outputs to 'dist/' inside the current working-directory
           create-dmg \
             --volname "AI Music Doctor" \
             --window-pos 200 120 \
@@ -55,4 +58,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: AI-Music-Doctor-macOS-DMG
-          path: AI_MUSIC_DOCTOR V1.3/ai_music_doctor/release/*.dmg
+          # Full path from the root of the repo for the uploader
+          path: "AI_MUSIC_DOCTOR V1.3/ai_music_doctor/release/*.dmg"
